@@ -104,6 +104,7 @@ ul {
 }
 
 table, th, td {
+  padding: 10px;
   border: 2px solid rgb(0,80,181);
   border-collapse: collapse;
   margin-left: auto;
