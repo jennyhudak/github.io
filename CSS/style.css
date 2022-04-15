@@ -12,7 +12,7 @@ body {
 }
 
 h1{
-  background: rgb(0,80,181);
+  background: rgb(100,149,237);
   font-family: 'Open Sans', sans-serif;
   font-size: 40px;
   font-weight: normal;
@@ -32,7 +32,7 @@ h2{
 }
 
 h3{
-  background: rgb(100,149,237);
+  background: rgb(0,80,181);
   font-family: 'Open Sans', sans-serif;
   font-size: 25px;
   font-weight: normal;
