@@ -115,21 +115,6 @@ ul {
 
 }
 
-.one {
-  float: left;
-  width: 300px;
-}
-
-.two {
-  float: center;
-  width: 300px;
-}
-
-.three {
-  float: right;
-  width: 300px;
-}
-
 a:link {
   color:rgb(75,0,130);
 }
