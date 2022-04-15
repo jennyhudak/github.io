@@ -4,17 +4,17 @@
 body {
     background: rgb(255,255,255);
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: normal;
     color: rgb(47,79,79);
     margin: auto;
-    padding: 40px;
+    padding: 60px;
 }
 
 h1{
   background: rgb(100,149,237);
   font-family: 'Open Sans', sans-serif;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: normal;
   color: rgb(255,255,255);
   margin: 0;
@@ -34,7 +34,7 @@ h2{
 h3{
   background: rgb(0,80,181);
   font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: normal;
   color: rgb(255,255,255);
   margin: 0;
@@ -42,17 +42,21 @@ h3{
 }
 
 #geography {
-	padding: 20px;
-	margin: 0;
+	padding: 30px;
+  padding: 7px;
+  margin-left: 10px;
+  margin-right: 0;
+  margin-top: 10px;
+  grid-area: main;
 }
 
 #economy {
-	padding: 20px;
+	padding: 30px;
 	margin: 0;
 }
 
 #communications {
-	padding: 20px;
+	padding: 30px;
 	margin: 0;
 }
 
