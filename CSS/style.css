@@ -68,15 +68,6 @@ h3{
 }
 
 .grid-item {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
-  grid-template-rows: auto auto auto;
-  gap: 5px 5px;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu main main main right right'
-    'footer footer footer footer footer footer';
   border: 3px solid rgb(0,80,181);
   border-radius: 0px 0px 0px 0px;
   border-width: 3px 3px 3px 3px;
@@ -84,8 +75,10 @@ h3{
   margin-left: 10px;
   margin-right: 0;
   margin-top: 10px;
+  grid-area: main;
 }
 
+}
 
 ul {
   font-size: 12px;
