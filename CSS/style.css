@@ -72,7 +72,7 @@ h3{
 }
 
 .grid-item {
-  border: 3px solid rgb(0,80,181);
+  border: 3px solid rgb(115, 147, 179);
   border-radius: 0px 0px 0px 0px;
   border-width: 3px 3px 3px 3px;
   padding: 7px;
@@ -90,21 +90,19 @@ ul {
 .flag {
 	padding: 10px;
   border: 3px solid transparent;
-  border radius: 0px;
   margin-left: auto;
   margin-right: auto;
   margin-top:auto;
   margin-bottom:auto;
-  width: 20%;
 }
 
 .map {
   padding: 10px;
   border: 3px solid transparent;
-  display: in-line;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
+  margin-top:auto;
+  margin-bottom:auto;
 }
 
 table, th, td {
