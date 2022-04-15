@@ -65,6 +65,8 @@ body {
   border-radius: 5px 0px 0px 5px;
   border-width: 3px 3px 3px 3px;
   padding: 7px;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .grid-item {
