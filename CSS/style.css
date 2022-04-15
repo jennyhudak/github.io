@@ -92,10 +92,8 @@ ul {
   margin-right: auto;
   margin-top:10px;
   margin-bottom:10px;
-  flex: 30%;
-
-
 }
+
 .map {
   padding: 10px;
   border: 3px solid rgb(0,80,181);
@@ -104,8 +102,6 @@ ul {
   margin-right: auto;
   margin-top:10px;
   margin-bottom:10px;
-  flex: 30%;
-
 }
 
 .table {
