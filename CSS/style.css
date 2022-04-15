@@ -3,7 +3,7 @@
 
 body {
     background: rgb(255,255,255);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: normal;
     color: rgb(47,79,79);
@@ -13,7 +13,7 @@ body {
 
 h1{
   background: rgb(100,149,237);
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 40px;
   font-weight: normal;
   color: rgb(255,255,255);
@@ -22,7 +22,7 @@ h1{
 
 h2{
   background: rgb(100,149,237);
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   font-weight: normal;
   color: rgb(255,255,255);
@@ -31,29 +31,25 @@ h2{
 
 h3{
   background: rgb(100,149,237);
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 25px;
   font-weight: normal;
   color: rgb(255,255,255);
   margin: 0;
 }
 
-/* .spacing{
-  padding: 10px
-} */
-
 #geography {
-	padding: 10px;
+	padding: 20px;
 	margin: 0;
 }
 
 #economy {
-	padding: 10px;
+	padding: 20px;
 	margin: 0;
 }
 
 #communications {
-	padding: 10px;
+	padding: 20px;
 	margin: 0;
 }
 
