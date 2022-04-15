@@ -78,7 +78,6 @@ h3{
   grid-area: main;
 }
 
-}
 
 ul {
   font-size: 12px;
@@ -100,7 +99,7 @@ ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  width: auto;
 }
 
 .table {
@@ -109,7 +108,7 @@ ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  width: auto;
 
 }
 
