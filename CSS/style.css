@@ -103,15 +103,10 @@ ul {
   width: 20%;
 }
 
-.table {
-  padding: 10px;
-  border: 3px solid transparent;
-  display: in-line;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-
+table {
+  border: 2px solid rgb(0,80,181);
 }
+
 
 a:link {
   color:rgb(75,0,130);
