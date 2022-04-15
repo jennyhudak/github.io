@@ -37,6 +37,10 @@ h3{
   margin: 0;
 }
 
+.spacing{
+  padding: 10px
+}
+
 figcaption {
   text-align: center;
 }
