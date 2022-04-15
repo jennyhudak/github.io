@@ -66,11 +66,21 @@ body {
   grid-template-columns: auto auto auto;
 }
 
+.grid-container-intro {
+  border: 3px solid transparent;
+  border-radius: 5px 0px 0px 5px;
+  border-width: 3px 3px 3px 3px;
+  padding: 7px;
+}
+
 .grid-container {
   border: 3px solid transparent;
   border-radius: 5px 0px 0px 5px;
   border-width: 3px 3px 3px 3px;
   padding: 7px;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .grid-item {
@@ -91,20 +101,14 @@ body {
 .one {
   grid-column: 1;
   grid-row: 1 / 5;
-  float: left;
-  width: 100px;
 }
 .two {
   grid-column: 2;
   grid-row: 1 / 5;
-  float: center;
-  width: 100px;
 }
 .three {
   grid-column: 3;
   grid-row: 1 / 5;
-  float: right;
-  width: 100px;
 }
 
 
