@@ -8,6 +8,7 @@ body {
     font-weight: normal;
     color: rgb(47,79,79);
     margin: 0;
+    padding: 10px !important;
 }
 
 h1{
@@ -37,16 +38,47 @@ h3{
   margin: 0;
 }
 
-.spacing{
+/* .spacing{
   padding: 10px
+} */
+
+#geography {
+	padding: 10px;
+	margin: 0;
 }
 
-figcaption {
+#economy {
+	padding: 10px;
+	margin: 0;
+}
+
+#communications {
+	padding: 10px;
+	margin: 0;
+}
+
+.grid-container {
+	border: 5px solid transparent;
+}
+
+.grid-item {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0, 0);
+  padding: 20px;
+  font-size: 30px;
   text-align: center;
 }
 
 ul {
-  font-size: 18px;
+  font-size: 12px;
+}
+
+img {
+	padding: 10px;
+  margin: 0 auto;
+  border: 5px solid transparent;
+  background-color: rgb(100,149,237);
+
 }
 
 a:link {
