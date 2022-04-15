@@ -45,19 +45,25 @@ body {
 #geography {
   padding: 30px;
   margin: 0;
-  max-width: 900px
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 #economy {
 	padding: 30px;
 	margin: 0;
-  max-width: 900px
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 #communications {
 	padding: 30px;
 	margin: 0;
-  max-width: 900px
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .grid-container {
@@ -65,8 +71,6 @@ body {
   border-radius: 5px 0px 0px 5px;
   border-width: 3px 3px 3px 3px;
   padding: 7px;
-  display: grid;
-  grid-template-columns: auto auto auto;
 }
 
 .grid-item {
