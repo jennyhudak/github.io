@@ -91,6 +91,7 @@ ul {
   margin-right: auto;
   margin-top:auto;
   margin-bottom:auto;
+  width: 50%;
 }
 
 .map {
@@ -99,7 +100,7 @@ ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: auto;
+  width: 50%;
 }
 
 .table {
@@ -108,7 +109,7 @@ ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: auto;
+  width: 50%;
 
 }
 
