@@ -81,10 +81,9 @@ body {
 }
 
 .grid-container {
-  border: 3px solid rgb(115, 147, 179)
   display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px 300px;
+    grid-template-rows: auto;
 
     grid-template-areas:
           "head head2 head3"
@@ -101,7 +100,7 @@ body {
   border: 3px solid rgb(115, 147, 179);
   display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: minmax(100px, max-content)
+    grid-template-rows: auto;
 
     grid-template-areas:
           "head head2 head3"
