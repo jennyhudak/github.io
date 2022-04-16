@@ -94,7 +94,7 @@ body {
 
     grid-template-areas:
           "head head2 head3"
-          "main main2 main 3";
+          "main main2 main3";
 }
 
 /* .one {
