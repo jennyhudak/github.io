@@ -73,12 +73,27 @@ body {
   padding: 7px;
 }
 
-.grid-container {
+.grid-container-headers{
   border: 3px solid transparent;
   border-radius: 5px 0px 0px 5px;
   border-width: 3px 3px 3px 3px;
   padding: 7px;
-  }
+}
+
+.grid-container {
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+
+    grid-template-areas:
+          "head head2 head3"
+          "main main2 main3";
+
+          border: 3px solid transparent;
+          border-radius: 5px 0px 0px 5px;
+          border-width: 3px 3px 3px 3px;
+          padding: 7px;
+}
 
 
 .grid-item {
