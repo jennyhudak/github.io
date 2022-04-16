@@ -79,10 +79,14 @@ body {
   border-width: 3px 3px 3px 3px;
   padding: 7px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+
+    grid-template-areas:
+          "head head2 head3"
+          "main main2 main 3";
+  }
+
 
 .grid-item {
   border: 3px solid rgb(115, 147, 179);
@@ -91,9 +95,6 @@ body {
   margin-right: auto;
   margin-top:auto;
   margin-bottom:auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
 
