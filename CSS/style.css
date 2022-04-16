@@ -32,7 +32,7 @@ h3{
 }
 
 body {
-    background-color: rgb(232,244,248)
+    background: rgb(232,244,248);
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: normal;
@@ -79,7 +79,6 @@ body {
 
 .grid-container {
   display: grid;
-  background-color: rgb(232,244,248)
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
 
@@ -95,7 +94,7 @@ body {
 
 
 .grid-item {
-  border: 3px solid transparent;
+  border: 3px solid rgb(0,80,181);
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
