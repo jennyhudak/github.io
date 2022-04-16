@@ -78,13 +78,6 @@ body {
   border-radius: 5px 0px 0px 5px;
   border-width: 3px 3px 3px 3px;
   padding: 7px;
-  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px 300px;
-
-    grid-template-areas:
-          "head head2 head3"
-          "main main2 main 3";
   }
 
 
@@ -95,10 +88,16 @@ body {
   margin-right: auto;
   margin-top:auto;
   margin-bottom:auto;
-  grid-auto-rows: minmax(100px, auto);
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+
+    grid-template-areas:
+          "head head2 head3"
+          "main main2 main 3";
 }
 
-.one {
+/* .one {
   grid-column: 1;
   grid-row: 1 / 5;
 }
@@ -109,7 +108,7 @@ body {
 .three {
   grid-column: 3;
   grid-row: 1 / 5;
-}
+} */
 
 
 ul {
