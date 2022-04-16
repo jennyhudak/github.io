@@ -39,6 +39,7 @@ body {
     color: rgb(47,79,79);
     margin: auto;
     padding: 5px;
+    max-width: 900px
 }
 
 #geography {
