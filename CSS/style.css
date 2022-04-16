@@ -27,8 +27,8 @@ h3{
   font-size: 20px;
   font-weight: normal;
   color: rgb(255,255,255);
-  margin: 0;
-  padding: 20px;
+  margin: auto;
+  padding: 0px;
 }
 
 body {
@@ -38,12 +38,12 @@ body {
     font-weight: normal;
     color: rgb(47,79,79);
     margin: auto;
-    padding: 60px;
+    padding: 5px;
     max-width: 900px
 }
 
 #geography {
-  padding: 30px;
+  padding: 10px;
   margin: 0;
   max-width: 900px;
   display: grid;
@@ -51,7 +51,7 @@ body {
 }
 
 #economy {
-	padding: 30px;
+	padding: 10px;
 	margin: 0;
   max-width: 900px;
   display: grid;
@@ -70,14 +70,14 @@ body {
   border: 3px solid transparent;
   border-radius: 5px 0px 0px 5px;
   border-width: 3px 3px 3px 3px;
-  padding: 7px;
+  padding: 5px;
 }
 
 .grid-container-headers{
   border: 3px solid transparent;
   border-radius: 5px 0px 0px 5px;
   border-width: 3px 3px 3px 3px;
-  padding: 7px;
+  padding: 5px;
 }
 
 .grid-container {
@@ -92,7 +92,7 @@ body {
           border: 3px solid transparent;
           border-radius: 5px 0px 0px 5px;
           border-width: 3px 3px 3px 3px;
-          padding: 7px;
+          padding: 5px;
 }
 
 
