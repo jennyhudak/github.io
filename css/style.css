@@ -4,7 +4,7 @@
 h1{
   background: rgb(124,116,111);
   font-family: 'Open Sans', sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: normal;
   color: rgb(255,255,255);
   margin: auto;
@@ -14,7 +14,7 @@ h1{
 h2{
   background: rgb(204,156,124);
   font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: normal;
   color: rgb(255,255,255);
   margin: auto;
@@ -24,7 +24,7 @@ h2{
 h3{
   background: rgb(247,220,204);
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: normal;
   color: rgb(255,255,255);
   margin: auto;
@@ -136,6 +136,11 @@ ul {
   font-size: 12px;
 }
 
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
 .logo {
 	padding: 10px;
   border: 3px solid transparent;
@@ -151,8 +156,6 @@ ul {
   border: 3px solid transparent;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100px;
-  height: auto;
 
 }
 
@@ -161,8 +164,6 @@ ul {
   border: 3px solid transparent;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100px;
-  height: auto;
 
 }
 
@@ -171,8 +172,6 @@ ul {
   border: 3px solid transparent;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100px;
-  height: auto;
 
 }
 
