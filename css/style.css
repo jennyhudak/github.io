@@ -8,7 +8,7 @@ h1{
   font-weight: normal;
   color: rgb(255,255,255);
   margin: auto;
-  padding: 20px;
+  padding: 5px;
 }
 
 h2{
@@ -18,7 +18,7 @@ h2{
   font-weight: normal;
   color: rgb(255,255,255);
   margin: auto;
-  padding: 20px;
+  padding: 5px;
 }
 
 h3{
@@ -28,7 +28,7 @@ h3{
   font-weight: normal;
   color: rgb(255,255,255);
   margin: auto;
-  padding: 20px;
+  padding: 5px;
 }
 
 body {
@@ -54,7 +54,6 @@ body {
   padding: 5px;
   margin: auto;
   display: grid;
-  text-align: center;
   grid-template-columns: auto auto auto;
   max-width: auto;
 }
@@ -63,14 +62,12 @@ body {
 	padding: 5px;
 	margin: auto;
   display: grid;
-  text-align: center;
   grid-template-columns: auto auto auto;
 }
 
 #video {
 	padding: 5px;
 	margin: auto;
-  text-align: center;
 }
 
 .grid-container-intro {
@@ -78,6 +75,7 @@ body {
   border-radius: 5px 0px 0px 5px;
   border-width: 3px 3px 3px 3px;
   padding: 5px;
+  text-align: center;
 }
 
 .grid-container-header {
@@ -153,7 +151,7 @@ ul {
   border: 3px solid transparent;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
+  max-width: 100px;
   height: auto;
 
 }
@@ -163,7 +161,7 @@ ul {
   border: 3px solid transparent;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
+  max-width: 100px;
   height: auto;
 
 }
@@ -173,7 +171,7 @@ ul {
   border: 3px solid transparent;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
+  max-width: 100px;
   height: auto;
 
 }
