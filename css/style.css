@@ -42,21 +42,21 @@ body {
     max-width: 900px
 }
 
-.photography {
+#photography {
   padding: 5px;
   margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
 }
 
-.writing {
+#writing {
 	padding: 5px;
 	margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
 }
 
-.video {
+#video {
 	padding: 5px;
 	margin: auto;
   display: grid;
