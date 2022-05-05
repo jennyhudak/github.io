@@ -26,7 +26,7 @@ h3{
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: normal;
-  color: rgb(124,116,111);
+  color: rgb(255,255,255);
   margin: auto;
   padding: 20px;
 }
@@ -89,7 +89,7 @@ body {
 
 .grid-container {
   display: grid;
-    max-width: auto;
+    max-width: 100%;
     column-width: auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
