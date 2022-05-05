@@ -42,21 +42,21 @@ body {
     max-width: 900px
 }
 
-#geography {
+#photography {
   padding: 5px;
   margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
 }
 
-#economy {
+#writing {
 	padding: 5px;
 	margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
 }
 
-#communications {
+#video {
 	padding: 5px;
 	margin: auto;
   display: grid;
