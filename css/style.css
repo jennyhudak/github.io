@@ -53,10 +53,10 @@ body {
 #photography {
   padding: 5px;
   margin: auto;
-  width: 50%;
   display: grid;
   text-align: center;
   grid-template-columns: auto auto auto;
+  max-width: auto;
 }
 
 #writing {
@@ -89,9 +89,11 @@ body {
 
 .grid-container {
   display: grid;
+    max-width: auto;
     column-width: auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
+
 
     grid-template-areas:
           "head head2 head3"
@@ -113,6 +115,7 @@ body {
   margin-right: auto;
   margin-top: 10px;
   margin-bottom:auto;
+  max-width: auto;
   padding: 10px;
 
 }
