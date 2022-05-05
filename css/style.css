@@ -7,7 +7,7 @@ h1{
   font-size: 50px;
   font-weight: normal;
   color: rgb(255,255,255);
-  margin: 0;
+  margin: auto;
   padding: 20px;
 }
 
@@ -17,7 +17,7 @@ h2{
   font-size: 30px;
   font-weight: normal;
   color: rgb(255,255,255);
-  margin: 0;
+  margin: auto;
   padding: 20px;
 }
 
@@ -46,13 +46,16 @@ body {
   padding: 5px;
   margin: auto;
   display: grid;
+  text-align: center;
   grid-template-columns: auto auto auto;
 }
 
 #photography {
   padding: 5px;
   margin: auto;
+  width: 50%;
   display: grid;
+  text-align: center;
   grid-template-columns: auto auto auto;
 }
 
@@ -60,12 +63,14 @@ body {
 	padding: 5px;
 	margin: auto;
   display: grid;
+  text-align: center;
   grid-template-columns: auto auto auto;
 }
 
 #video {
 	padding: 5px;
 	margin: auto;
+  text-align: center;
 }
 
 .grid-container-intro {
@@ -84,6 +89,7 @@ body {
 
 .grid-container {
   display: grid;
+    column-width: auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
 
@@ -95,6 +101,8 @@ body {
           border-radius: 5px 0px 0px 5px;
           border-width: 3px 3px 3px 3px;
           padding: 5px;
+
+
 
 }
 
