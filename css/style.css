@@ -121,7 +121,23 @@ ul {
   font-size: 12px;
 }
 
-.flag {
+.grad {
+	padding: 10px;
+  border: 3px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.landscape {
+	padding: 10px;
+  border: 3px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.univmiami {
 	padding: 10px;
   border: 3px solid transparent;
   margin-left: auto;
