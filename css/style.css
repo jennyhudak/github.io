@@ -79,8 +79,8 @@ body {
 }
 
 .grid-container-header {
-  border: 3px solid transparent;
-  border-radius: 5px 0px 0px 5px;
+  border: 0px solid transparent;
+  border-radius: 0px 0px 0px 0px;
   border-width: 3px 3px 3px 3px;
   padding: 5px;
 }
@@ -97,15 +97,12 @@ body {
           "head head2 head3"
           "main main2 main3";
 
-          border: 3px solid transparent;
-          border-radius: 5px 0px 0px 5px;
+          border: 0px solid transparent;
+          border-radius: 0px 0px 0px 0px;
           border-width: 3px 3px 3px 3px;
           padding: 5px;
 
-
-
 }
-
 
 .grid-item {
   border: 3px solid transparent;
