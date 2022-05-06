@@ -3,9 +3,9 @@
 
 h1{
   background: rgb(124,116,111);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 30px;
-  font-weight: normal;
+  font-weight: bold;
   color: rgb(255,255,255);
   margin: auto;
   padding: 5px;
@@ -13,9 +13,9 @@ h1{
 
 h2{
   background: rgb(204,156,124);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: bold;
   color: rgb(255,255,255);
   margin: auto;
   padding: 5px;
@@ -23,9 +23,9 @@ h2{
 
 h3{
   background: rgb(247,220,204);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: bold;
   color: rgb(255,255,255);
   margin: auto;
   padding: 5px;
@@ -33,7 +33,7 @@ h3{
 
 body {
     background: rgb(255,255,255);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: normal;
     color: rgb(124,116,111);
@@ -174,18 +174,18 @@ ul {
 }
 
 
-.a:link {
+a:link {
   color:rgb(75,0,130);
 }
 
-.a:visited {
+a:visited {
   color: rgb(147,112,219);
 }
 
-.a:hover {
+a:hover {
   color: rgb(230,230,250);
 }
 
-.a:active {
+a:active {
   color: rgb(172,79,198);
 }
