@@ -173,11 +173,6 @@ ul {
 
 }
 
-
-a:link {
-  color:rgb(75,0,130);
-}
-
 a:visited {
   color: rgb(147,112,219);
 }
@@ -188,4 +183,8 @@ a:hover {
 
 a:active {
   color: rgb(172,79,198);
+}
+
+a:link {
+  color:rgb(75,0,130);
 }
